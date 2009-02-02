@@ -1,9 +1,9 @@
 %define base_name	kde4-style
 %define theme_name	polyester
 %define name		%base_name-%theme_name
-%define preversion	beta1
+%define preversion	beta2
 %define version		2.0
-%define rel             2
+%define rel             1
 %define release		%mkrel 0.%preversion.%rel
 %define summary		Polyester kde widget style for KDE4
 
@@ -13,7 +13,7 @@ Release:		%release
 Summary:		%summary
 License:		LGPL
 Group:			Graphical desktop/KDE
-Source:			%theme_name-1.9.0.tar.gz
+Source:			%theme_name-1.98.0.tar.bz2
 URL:			http://kde-look.org/content/show.php?content=27968
 Requires:		kdelibs4-core
 BuildRequires:		kdebase4-workspace-devel
@@ -24,14 +24,14 @@ Polyester is a kde widget style aimed to be a good balance between eye candy
 and simplicity.
 
 %prep
-rm -rf %buildroot
-%setup -q -n %theme_name-1.9.0
+%setup -q -n %theme_name-1.98.0
 
 %build
 %cmake_kde4
 %make
 
 %install
+rm -fr %buildroot
 cd build
 %makeinstall_std 
 cd -
