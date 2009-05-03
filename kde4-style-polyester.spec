@@ -23,7 +23,7 @@ Polyester is a kde widget style aimed to be a good balance between eye candy
 and simplicity.
 
 %prep
-%setup -q -n %theme_name-1.98.0
+%setup -q -n %theme_name-%version
 
 %build
 %cmake_kde4
