@@ -46,3 +46,28 @@ rm -rf %buildroot
 %_kde_datadir/apps/color-schemes/Polyester*.colors
 %_kde_datadir/apps/kstyle/themes/polyester.themerc
 
+
+
+%changelog
+* Fri Dec 10 2010 Oden Eriksson <oeriksson@mandriva.com> 2.0.0-2mdv2011.0
++ Revision: 619946
+- the mass rebuild of 2010.0 packages
+
+* Sun May 03 2009 Funda Wang <fwang@mandriva.org> 2.0.0-1mdv2010.0
++ Revision: 370819
+- fix tarball dir
+- 2.0.0
+
+* Mon Feb 02 2009 Funda Wang <fwang@mandriva.org> 2.0-0.beta2.1mdv2009.1
++ Revision: 336439
+- 1.98.0
+
+* Fri Jul 04 2008 Funda Wang <fwang@mandriva.org> 2.0-0.beta1.2mdv2009.0
++ Revision: 231545
+- rebuild
+
+* Thu May 15 2008 Rodrigo Gonçalves de Oliveira <rodrigo@mandriva.com> 2.0-0.beta1.1mdv2009.0
++ Revision: 207611
+- import kde4-style-polyester
+
+
