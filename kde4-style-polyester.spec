@@ -15,6 +15,7 @@ Group:			Graphical desktop/KDE
 Source:			http://www.notmart.org/files/polyester-%version.tar.bz2
 URL:			https://kde-look.org/content/show.php?content=27968
 Requires:		kdelibs4-core
+BuildRequires:	make
 BuildRequires:		kdebase4-workspace-devel
 BuildRoot:		%_tmppath/%name-buildroot
 
