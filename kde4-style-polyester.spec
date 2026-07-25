@@ -3,7 +3,7 @@
 %define name		%base_name-%theme_name
 %define version		2.0.0
 %define rel             2
-%define release		%mkrel %rel
+%define release %rel.1
 %define summary		Polyester kde widget style for KDE4
 
 Name:			%name
